@@ -1,3 +1,7 @@
+body {
+    margin-top: 1rem;
+}
+
 .projects-filters {
   display: flex;
   justify-content: center;

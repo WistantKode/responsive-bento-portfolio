@@ -13,6 +13,7 @@
     --black-color: hsl(0, 0%, 1%);
     --text-color: hsl(var(--hue), 2%, 66%);
     --body-color: #081826;
+    --button-hover: #081826;
     --container-color: hsl(222, 21%, 28%);
     --conic-gradient-1: conic-gradient(
     from 150deg at 50% 45%,
@@ -169,7 +170,7 @@ img{
 }
 /* Active link */
 .active-link{
-    background-color: var(--first-color);
+    background-color: rgb(134, 127, 127);
 }
 
 /*=============== HOME ===============*/
@@ -185,7 +186,7 @@ img{
 }
 
 .profile img {
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
 }
 
 .profile-img{
@@ -232,7 +233,7 @@ img{
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
-    background-color: var(--first-color);
+    background-color: var(--button-hover);
 }
 
 .info-name{
@@ -297,7 +298,7 @@ img{
 }
 
 .about-link:hover{
-    background-color: var(--first-color);
+    background-color: var(--conic-gradient-1);
     color: var(--white-color);
 }
 
@@ -354,7 +355,7 @@ img{
 .button{
     display: inline-flex;
     justify-content: center;
-    background-color: var(--first-color);
+    background-color: rgb(134, 127, 127);
     color: var(--white-color);
     font-weight: var(--font-semi-bold);
     padding: 1.25rem 2.5rem;
@@ -367,7 +368,7 @@ img{
 }
 
 .button:hover{
-    background-color: var(--first-color-alt);
+    background-color: var(--button-hover);
 }
 /*=============== PROJECTS ===============*/
 .projects-card{
@@ -441,7 +442,7 @@ img{
 .projects-card:hover .projects-img{
     transform: scale(1.2);
 }
-/*=============== SERVICES ===============*/
+
 .services-card{
     background-color: var(--container-color);
     padding: 4rem 1.5rem 3.5rem 1.5rem;
@@ -702,6 +703,9 @@ img{
 
     .profile{
         height: 100%;
+    }
+    .profile-data {
+      margin-left: 4rem;
     }
 
     .projects-container,
