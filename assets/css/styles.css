@@ -10,8 +10,8 @@
     --white-color: hsl(0, 0%, 98%);
     --black-color: hsl(0, 0%, 1%);
     --text-color: hsl(var(--hue), 2%, 66%);
-    --body-color: hsl(var(--hue), 100%, 1%);
-    --container-color: hsl(var(--hue), 2%, 10%);
+    --body-color: #081826;
+    --container-color: hsl(222, 21%, 28%);
     --conic-gradient: conic-gradient(from 150deg at 50% 45%,
                         hsl(var(--hue), 80%, 20%) 0deg,
                         hsl(var(--hue), 80%, 48%) 140deg,
@@ -178,6 +178,10 @@ img{
     padding: 1rem;
     display: grid;
     overflow: hidden;
+}
+
+.profile img {
+  margin-bottom: 8rem;
 }
 
 .profile-img{
