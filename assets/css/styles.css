@@ -907,3 +907,123 @@ img{
         right: 4rem;
     }
 }
+
+
+
+.footer {
+    background: var(--main2-color);
+    padding: 50px o;
+    padding-top: 2rem;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.footer-box {
+    display: flex;
+    flex-direction: column;
+}
+.footer-box  h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+    font-weight: 700;
+}
+.footer-box h3 span {
+    color: var(--main-color);
+    font-weight: 800;
+}
+.footer-link {
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--text-color);
+    margin: 0.5rem;
+    position: relative;
+    padding-left: 1rem;
+}
+.footer-link::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--main-color);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.footer-link:hover {
+    transition: 0.3s;
+    color: var(--main-color);
+}
+.footer-center {
+    justify-items: center;
+    display: grid;
+    gap: 1rem;
+}
+.footer-center .logo-footer {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+.footer img {
+    margin-left: 2.6rem;
+}
+.footer .logo-footer h1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #4e3434;
+}
+.footer-center .footer-p p {
+    text-align: center;
+    margin-bottom: 1.2rem;
+    color: #b2b4c2;
+}
+.social {
+    align-items: center;
+    gap: 8px;
+}
+.social a i {
+    background-color: var(--main-color);
+    color: var(--bg-color);
+    padding: 0.5rem;
+    border-radius: 12px;
+    font-size: 18px;
+}
+.social a i:hover {
+    background: var(--text-color); 
+    transition: background 0.4s ease-in-out;
+}
+.copy-right-link {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+.copy-right-link p {
+    color: #818395;
+}
+.copy-right-link span {
+    color: var(--main-color);
+}
+
+
+
+
+@media (max-width: 920px) {
+    .footer-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+
+@media (max-width: 770px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+    .single-post {
+        height: 380px;
+    }
+    .footer-center {
+        order: 3;
+    }
+}

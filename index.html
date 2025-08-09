@@ -9,6 +9,7 @@
 
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/projects-filter.css">
 
     <!--=============== REMIX-ICON ===============-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
@@ -122,7 +123,7 @@
                 </div>
 
                 <!-- SKILLS -->
-                <div class="skills">
+                <div class="skills" id="skills">
                     <h2 class="skills-title">Skills</h2>
 
                     <div class="skills-items">
@@ -145,23 +146,33 @@
         <!--==================== PROJECTS ====================-->
         <section class="projects section" id="projects">  
             <h2 class="section-title">RECENT PROJECTS</h2>
+            
+            
+            <!-- Filter Buttons -->
+            <div class="projects-filters" style="text-align:center; margin-bottom:2rem;">
+              <button class="filter-btn active" data-filter="all">All</button>
+              <button class="filter-btn" data-filter="css-js">CSS-JS</button>
+              <button class="filter-btn" data-filter="js">JS</button>
+              <button class="filter-btn" data-filter="react">React</button>
+              <button class="filter-btn" data-filter="nextjs">NextJS</button>
+              <button class="filter-btn" data-filter="nodejs">Node.js</button>
+            </div>
 
             <div class="projects-container container grid">
                 <!-- Coffee Website -->
-                <article class="projects-card">
+                <article class="projects-card" data-category="css-js">
                     <a href="#" class="projects-image">
                         <img src="./assets/img/portfolio5.png" alt="image" class="projects-img">
                     </a>
 
                     <div class="projects-data">
-                        <h3 class="projects-name">Coffee Website</h3>
+                        <h3 class="projects-name">Chicken Food</h3>
                         <p class="projects-description">
-Chick Food is a front-end project for a fictional fried
-chicken restaurant. This fully responsive website provides
-an engaging user experience with smooth animations and a
-clean, modern design. It serves as a great portfolio
-piece to showcase skills in HTML, CSS, and JavaScript. 
-                           
+                            Chick Food is a front-end project for a fictional fried
+                            chicken restaurant. This fully responsive website provides
+                            an engaging user experience with smooth animations and a
+                            clean, modern design. It serves as a great portfolio
+                            piece to showcase skills in HTML, CSS, and JavaScript. 
                         </p>
 
                         <div class="projects-skills">
@@ -180,17 +191,20 @@ piece to showcase skills in HTML, CSS, and JavaScript.
 
                 
 
-                <!-- E-Commerce Website -->
+                
                 <article class="projects-card">
                     <a href="#" class="projects-image">
-                        <img src="./assets/img/projects-2.jpg" alt="image" class="projects-img">
+                        <img src="./assets/img/portfolio9.png" alt="image" class="projects-img">
                     </a>
 
                     <div class="projects-data">
-                        <h3 class="projects-name">E-Commerce Website</h3>
+                        <h3 class="projects-name">Car Website</h3>
                         <p class="projects-description">
-                            Short description of the project that 
-                            was carried out in this portfolio.
+                            Elysian Drive is a front-end project showcasing electric cars. 
+                            This landing page offers a glimpse into the full website, which
+                            features smooth animations and a futuristic design. It highlights
+                            skills in HTML, CSS, and JavaScript, especially with animation and
+                            interactive libraries.
                         </p>
 
                         <div class="projects-skills">
@@ -200,24 +214,26 @@ piece to showcase skills in HTML, CSS, and JavaScript.
                             <img src="./assets/logos/tailwindcss-icon.svg" alt="image" class="projects-skill">
                         </div>
 
-                        <a href="https://readly-book.netlify.app/" target="_blank" class="projects-button">
+                        <a href="https://elysiandrive-wistant.netlify.app" target="_blank" class="projects-button">
                             <i class="ri-link"></i>
                             <span>Visit Projects</span>
                         </a>
                     </div>
                 </article>
 
-                <!-- Restaurant Landing Page -->
+                
                 <article class="projects-card">
                     <a href="#" class="projects-image">
-                        <img src="./assets/img/projects-3.jpg" alt="" class="projects-img">
+                        <img src="./assets/img/portfolio6.png" alt="" class="projects-img">
                     </a>
 
                     <div class="projects-data">
-                        <h3 class="projects-name">Restaurant Landing Page</h3>
+                        <h3 class="projects-name">Plante X</h3>
                         <p class="projects-description">
-                            Short description of the project that 
-                            was carried out in this portfolio.
+                            Plantex is a showcase website for plants, built to be fully 
+                            responsive and easy to customize. It includes sections for products,
+                            FAQs, contact, and social links. The design is minimalist and uses
+                            Google Fonts (Outfit) and Remix Icons.
                         </p>
 
                         <div class="projects-skills">
@@ -227,7 +243,7 @@ piece to showcase skills in HTML, CSS, and JavaScript.
                             <img src="./assets/logos/tailwindcss-icon.svg" alt="image" class="projects-skill">
                         </div>
 
-                        <a href="https://the-sushi-spot.netlify.app/" target="_blank" class="projects-button">
+                        <a href="https://plantex-wistant.netlify.app/" target="_blank" class="projects-button">
                             <i class="ri-link"></i>
                             <span>Visit Projects</span>
                         </a>
@@ -237,14 +253,42 @@ piece to showcase skills in HTML, CSS, and JavaScript.
                 <!-- Real Estate Website -->
                 <article class="projects-card">
                     <a href="#" class="projects-image">
-                        <img src="./assets/img/projects-4.jpg" alt="image" class="projects-img">
+                        <img src="./assets/img/portfolio4.png" alt="image" class="projects-img">
                     </a>
 
                     <div class="projects-data">
-                        <h3 class="projects-name">Real Estate Website</h3>
+                        <h3 class="projects-name">Boomsound</h3>
                         <p class="projects-description">
-                            Short description of the project that 
-                            was carried out in this portfolio.
+                            Boomsound is a website for artists, DJs, and dreamers 
+                            who want to make waves on the web. Made with HTML, CSS, and JavaScript.
+                        </p>
+
+                        <div class="projects-skills">
+                            <img src="./assets/logos/html-5.svg" alt="image" class="projects-skill">
+                            <img src="./assets/logos/css-3.svg" alt="image" class="projects-skill">
+                            <img src="./assets/logos/javascript.svg" alt="image" class="projects-skill">
+                            <img src="./assets/logos/bootstrap.svg" alt="image" class="projects-skill">
+                        </div>
+
+                        <a href="https://boomsound-wistant.netlify.app/" target="_blank" class="projects-button">
+                            <i class="ri-link"></i>
+                            <span>Visit Projects</span>
+                        </a>    
+                    </div>
+                </article>
+
+                
+                <article class="projects-card">
+                    <a href="#" class="projects-image">
+                        <img src="./assets/img/portfolio-1.png" alt="image" class="projects-img">
+                    </a>
+
+                    <div class="projects-data">
+                        <h3 class="projects-name">Construction Landing Page</h3>
+                        <p class="projects-description">
+                            Structo is a construction landing page designed to be fully responsive and easy to customize. 
+                            It includes sections for services, projects, testimonials, and contact information. 
+                            The design is modern and uses Google Fonts (Outfit) and Remixicon. 
                         </p>
 
                         <div class="projects-skills">
@@ -254,24 +298,26 @@ piece to showcase skills in HTML, CSS, and JavaScript.
                             <img src="./assets/logos/tailwindcss-icon.svg" alt="image" class="projects-skill">
                         </div>
 
-                        <a href="https://nestleap.netlify.app/" target="_blank" class="projects-button">
+                        <a href="https://construction-wistant.netlify.app/" target="_blank" class="projects-button">
                             <i class="ri-link"></i>
                             <span>Visit Projects</span>
                         </a>
                     </div>
                 </article>
 
-                <!-- Construction Landing Page -->
+
+
                 <article class="projects-card">
                     <a href="#" class="projects-image">
-                        <img src="./assets/img/projects-5.jpg" alt="image" class="projects-img">
+                        <img src="./assets/img/portfolio-2.png" alt="image" class="projects-img">
                     </a>
 
                     <div class="projects-data">
-                        <h3 class="projects-name">Construction Landing Page</h3>
+                        <h3 class="projects-name">JBL Headphones</h3>
                         <p class="projects-description">
-                            Short description of the project that 
-                            was carried out in this portfolio.
+                            JBL Headphones are designed to deliver high-quality sound and comfort. 
+                            They feature a sleek design, noise cancellation, and long battery life. 
+                            Perfect for music lovers and audiophiles alike.
                         </p>
 
                         <div class="projects-skills">
@@ -281,7 +327,35 @@ piece to showcase skills in HTML, CSS, and JavaScript.
                             <img src="./assets/logos/tailwindcss-icon.svg" alt="image" class="projects-skill">
                         </div>
 
-                        <a href="https://structo.netlify.app/" target="_blank" class="projects-button">
+                        <a href="https://jbl-wistant.netlify.app/" target="_blank" class="projects-button">
+                            <i class="ri-link"></i>
+                            <span>Visit Projects</span>
+                        </a>
+                    </div>
+                </article>
+
+
+                <article class="projects-card">
+                    <a href="#" class="projects-image">
+                        <img src="./assets/img/portfolio-3.png" alt="image" class="projects-img">
+                    </a>
+
+                    <div class="projects-data">
+                        <h3 class="projects-name">Airbnb House</h3>
+                        <p class="projects-description">
+                            Airbnb House is a modern and stylish accommodation option designed for comfort and convenience. 
+                            It features spacious rooms, a fully equipped kitchen, and a cozy living area. 
+                            Perfect for families and groups looking for a home away from home.
+                        </p>
+
+                        <div class="projects-skills">
+                            <img src="./assets/logos/html-5.svg" alt="image" class="projects-skill">
+                            <img src="./assets/logos/css-3.svg" alt="image" class="projects-skill">
+                            <img src="./assets/logos/javascript.svg" alt="image" class="projects-skill">
+                            <img src="./assets/logos/tailwindcss-icon.svg" alt="image" class="projects-skill">
+                        </div>
+
+                        <a href="https://airbnb-house-wistant.netlify.app/" target="_blank" class="projects-button">
                             <i class="ri-link"></i>
                             <span>Visit Projects</span>
                         </a>
@@ -290,8 +364,15 @@ piece to showcase skills in HTML, CSS, and JavaScript.
             </div>
         </section>
 
+
+
+
+
+
+
         <!--==================== SERVICES ====================-->
         <section class="services section" id="services">
+
             <h2 class="section-title">SERVICES I OFFER</h2>
 
             <div class="services-container container grid">
@@ -404,48 +485,44 @@ piece to showcase skills in HTML, CSS, and JavaScript.
                 </form>
             </div>
         </section>
-    </main>
+    
 
-    <!--==================== FOOTER ====================-->
-    <footer class="footer">
-        <div class="footer-container container grid">
-            <div class="footer-content grid">
-                <a href="#" class="footer-logo">Elias</a>
 
-                <ul class="footer-links">
-                    <li>
+        <section class="section footer" id="footer">
+                <div class="footer-container container">
+                    <div class="footer-box">
+                        <h3>Projects <span>Categories</span></h3>
+                        <a href="#projects" class="footer-link">Html-CSS</a>
+                        <a href="#projects" class="footer-link">JavaScript</a>
+                        <a href="#projects" class="footer-link">React</a>
+                        <a href="#projects" class="footer-link">Next.js</a>
+                        <a href="#projects" class="footer-link">Node.js</a>
+                    </div>
+                    <div class="footer-box footer-center">
+                        <a href="#home" class="logo logo-footer">
+                            <img src="/assets/logos/logo.png" alt=""><h1>Coffee Shop</h1>
+                        </a>
+                        <p class="footer-p">Your daily ritual, perfected.</p> 
+                        <div class="social media">
+                            <a href="https://github.com/wistantkode"><i class="ri-github-line"></i></a>
+                            <a href="https://www.linkedin.com/in/wistantkode"><i class="ri-linkedin-line"></i></a>
+                            <a href="https://wa.me/+237697135341"><i class="ri-whatsapp-line"></i></a>
+                        </div>
+                        <div class="copy-right-link">
+                            <a href="https://wistantkode.netlify.app" target="_blank"><p>&#169;2025 <span>Wistant Kode</span> All rights reserved</p></a>
+                        </div>
+                    </div>
+                    <div class="footer-box">
+                        <h3>Quick <span>Links</span></h3>
                         <a href="#home" class="footer-link">Home</a>
-                    </li>
-                    
-                    <li>
+                        <a href="#services" class="footer-link">My services</a>
                         <a href="#projects" class="footer-link">Projects</a>
-                    </li>
-
-                    <li>
-                        <a href="#services" class="footer-link">Services</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="footer-social">
-                <a href="ttps://www.facebook.com/" target="_blank" class="footer-social-link">
-                    <i class="ri-facebook-line"></i>
-                </a>
-
-                <a href="https://www.instagram.com/" target="_blank" class="footer-social-link">
-                    <i class="ri-instagram-line"></i>
-                </a>
-
-                <a href="https://twitter.com/" target="_blank" class="footer-social-link">
-                    <i class="ri-twitter-x-line"></i>
-                </a>
-            </div>
-        </div>
-
-        <span class="footer-copy">
-            &#169; All Rights Reserved By Madhan.
-        </span>
-    </footer>
+                        <a href="#contact" class="footer-link">Contact Us</a>
+                    </div>
+                </div>
+       </section>
+    
+    </main>
 
     <!--========== SCROLL UP ==========-->
     <a href="#" class="scroll-up" id="scroll-up">
@@ -458,7 +535,8 @@ piece to showcase skills in HTML, CSS, and JavaScript.
     <!--========== EMAIL JS ==========-->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
-    <!--========== MAIN JS ==========-->
+    <!--========== JS  files ==========-->
     <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/projects-filter.js"></script>
 </body>
 </html>
