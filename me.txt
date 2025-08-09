@@ -1,0 +1,54 @@
+Profil Développeur Junior
+🚀 Identité
+●​
+ Nom Complet : Wistant Kode
+●​
+ Pseudonyme : Kali
+●​
+ Statut : Étudiant en 1ère année de DUT Génie Informatique à l'IUT de Douala
+●​
+ Esprit : Geek, curieux, audacieux, passionné par la cybersécurité et les systèmes
+puissants.
+📞 Coordonnées
+●​ Email : wistantkode@protonmail.com
+●​ Téléphone / WhatsApp : +237 697 135 341
+●​ Telegram : https://t.me/+237697135341
+🌐 Liens en ligne
+●​ GitHub : https://github.com/wistantkode
+●​ Portfolio : https://wistantkode.netlify.app
+●​ LinkedIn : https://linkedin.com/in/wistantkode
+💻 Compétences et Apprentissages
+●​ Langages & Développement Actuels : HTML, CSS, JavaScript (front-end solide et
+dynamique)
+●​ Langages & Développement à Venir : Python (automatisation, exploitation de
+vulnérabilités, scripts custom), PHP (back-end)
+●​ Projets Futurs :
+●​ Cybersécurité (Outils manipulés) : Hashcat, Aircrack-ng, MDK4, Metasploit
+Framework, nmap
+●​ Objectif Cybersécurité : Maîtriser le pentesting offensif et la sécurité défensive
+(forensic, incident response, bastion IT).
+●​ Orientation Future : Maîtriser la cybersécurité, puis se lancer dans le cloud computing.
+🎯 Vision et Ambitions
+●​ Vision Générale : "Je ne veux pas juste faire un projet, je veux marquer l'IUT. Je veux
+résoudre des problèmes réels. Je veux laisser une trace."
+●​ Ambitions de Carrière : Travailler chez un géant comme Google, ou monter sa propre
+boîte de cybersécurité. Devenir expert du hacking éthique, allier technique brute et
+architecture cloud. Toucher tous les aspects de la cybersécurité, sauf l'ingénierie
+sociale.
+🎓 Projet DUT
+●​ Sujet : Plateforme web intelligente de gestion de l'IUT de Douala.
+●​ Objectifs : Digitaliser les procédures, créer une UX génération Z, réunir étudiants,
+admins, enseignants dans une seule interface fluide.
+●​ Avancement : Base du projet existante, modules de concours, blog, gestion étudiants.
+✨ Soft Skills
+●​
+●​
+●​
+●​
+Visionnaire : Construire une utopie numérique, pas seulement du code.
+Résilient : Vise l'excellence et va loin.
+Autodidacte : Apprend vite, seul si nécessaire.
+Motivé : Vise le sommet, ou rien.
+💡 Mantra
+"Je ne veux pas juste passer. Je veux imprimer ma trace. Je veux coder pour que les autres
+respirent mieux."

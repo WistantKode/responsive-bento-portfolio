@@ -1,66 +1,459 @@
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
 
-      <!--=============== FAVICON ===============-->
-      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/styles.css">
 
-      <!--=============== REMIXICONS ===============-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <!--=============== REMIX-ICON ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
 
-      <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Elias Garza - Portfolio</title>
+</head>
+<body>
+    <!--==================== NAV ====================-->
+    <nav class="nav">
+        <ul class="nav-list">
+            <li>
+                <a href="#home" title="Home" class="nav-link active-link">
+                    <i class="ri-home-line"></i>
+                </a>
+            </li>
 
-      <title>Responsive fried chicken website - Bedimcode</title>
-   </head>
-   <body>
-      <!--==================== HEADER ====================-->
-      <header class="header" id="header">
-         
-      </header>
+            <li>
+                <a href="#projects" title="Projects" class="nav-link">
+                    <i class="ri-folder-line"></i>
+                </a>
+            </li>
 
-      <!--==================== MAIN ====================-->
-      <main class="main">
-         <!--==================== HOME ====================-->
-         <section class="home section" id="home">
-            
-         </section>
+            <li>
+                <a href="#services" title="Services" class="nav-link">
+                    <i class="ri-file-edit-line"></i>
+                </a>
+            </li>
 
-         <!--==================== ABOUT ====================-->
-         <section class="about section" id="about">
-            
-         </section>
+            <li>
+                <a href="#experience" title="Experience" class="nav-link">
+                    <i class="ri-honour-line"></i>
+                </a>
+            </li>
 
-         <!--==================== ORDER ====================-->
-         <section class="order section" id="order">
-            
-         </section>
+            <li>
+                <a href="#contact" title="Contact" class="nav-link">
+                    <i class="ri-send-plane-line"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
 
-         <!--==================== COMBO ====================-->
-         <section class="combo section" id="combo">
-            
-         </section>
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home-container container grid">
+                <!-- PROFILE -->
+                <div class="profile">
+                    <img src="./assets/img/home-perfil.png" alt="image" class="profile-img">
 
-         <!--==================== CONTACT ====================-->
-         <section class="contact section" id="contact">
-            
-         </section>
-      </main>
+                    <div class="profile-data">
+                        <h1 class="profile-name">Elias <br> Garza</h1>
 
-      <!--==================== FOOTER ====================-->
-      <footer class="footer">
-         
-      </footer>
+                        <div class="profile-buttons">
+                            <a href="#projects" class="button">Projects</a>
+                            <a href="#services" class="button button-black">Services</a>
+                        </div>
+                    </div>
+                </div>
 
-      <!--========== SCROLL UP ==========-->
-      
+                <!-- INFO -->
+                <div class="info">
+                    <div class="info-data">
+                        <div class="info-circle"></div>
+                        <h1 class="info-name">Elias Garza</h1>
+                    </div>
 
-      <!--=============== SCROLLREVEAL ===============-->
-      <script src="assets/js/scrollreveal.min.js"></script>
+                    <div class="info-image">
+                        <img src="./assets/img/about-perfil.png" alt="image" class="info-img">
+                    </div>
 
-      <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js"></script>
-   </body>
+                    <p class="info-description">
+                        Passionate about creating and designing 
+                        websites with the best engaging interfaces.
+                    </p>
+
+                    <a href="./assets/pdf/Gideon Matthews Cv.pdf" download="Gideon Matthews Resume" target="_blank" class="button button-black">Download CV</a>
+                </div>
+
+                <!-- ABOUT -->
+                <div class="about">
+                    <h3 class="about-name">Elias Garza - <b>Web Designer & Developer</b></h3>
+
+                    <p href="#" class="about-description">
+                        Located in London, I have several years of 
+                        experience in web development and design, 
+                        carrying out several successful projects.
+                    </p>
+
+                    <div class="about-social">
+                        <a href="https://www.linkedin.com/" target="_blank" class="about-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                        <a href="https://github.com/" target="_blank" class="about-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                        <a href="https://www.behance.net/" target="_blank" class="about-link">
+                            <i class="ri-behance-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="about-image">
+                        <img src="./assets/img/about-perfil.png" alt="image" class="about-img">
+                    </div>
+
+                    <p class="about-note">
+                        He doesn't write messages on social networks, 
+                        send me an email and I'll answer you.
+                    </p>
+
+                    <a href="#contact" class="button">Contact Me</a>
+                </div>
+
+                <!-- SKILLS -->
+                <div class="skills">
+                    <h2 class="skills-title">Skills</h2>
+
+                    <div class="skills-items">
+                        <img src="./assets/img/skills-html.svg" alt="image" class="skills-item">
+                        <img src="./assets/img/skills-css.svg" alt="image" class="skills-item">
+                        <img src="./assets/img/skills-javascript.svg" alt="image" class="skills-item">
+                        <img src="./assets/img/skills-react.svg" alt="image" class="skills-item">
+                        <img src="./assets/img/skills-git.svg" alt="image" class="skills-item">
+                        <img src="./assets/img/skills-github.svg" alt="image" class="skills-item">
+                        <img src="./assets/img/skills-sass.svg" alt="image" class="skills-item">
+                        <img src="./assets/img/skills-tailwind-css.svg" alt="image" class="skills-item">
+                        <img src="./assets/img/skills-figma.svg" alt="image" class="skills-item">
+                        <img src="./assets/img/skills-photoshop.svg" alt="image" class="skills-item">
+                    </div>
+
+                    <p class="skills-description">
+                        Visit the projects section to see the 
+                        work done with these web technologies.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PROJECTS ====================-->
+        <section class="projects section" id="projects">  
+            <h2 class="section-title">RECENT PROJECTS</h2>
+
+            <div class="projects-container container grid">
+                <!-- Coffee Website -->
+                <article class="projects-card">
+                    <a href="#" class="projects-image">
+                        <img src="./assets/img/projects-1.jpg" alt="image" class="projects-img">
+                    </a>
+
+                    <div class="projects-data">
+                        <h3 class="projects-name">Coffee Website</h3>
+                        <p class="projects-description">
+                            Short description of the project that 
+                            was carried out in this portfolio.
+                        </p>
+
+                        <div class="projects-skills">
+                            <img src="./assets/img/skills-react.svg" alt="image" class="projects-skill">
+                            <img src="./assets/img/skills-sass.svg" alt="image" class="projects-skill">
+                            <img src="./assets/img/skills-tailwind-css.svg" alt="image" class="projects-skill">
+                        </div>
+
+                        <a href="https://sip-n-savor.netlify.app/" target="_blank" class="projects-button">
+                            <i class="ri-link"></i>
+                            <span>Visit Projects</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- E-Commerce Website -->
+                <article class="projects-card">
+                    <a href="#" class="projects-image">
+                        <img src="./assets/img/projects-2.jpg" alt="image" class="projects-img">
+                    </a>
+
+                    <div class="projects-data">
+                        <h3 class="projects-name">E-Commerce Website</h3>
+                        <p class="projects-description">
+                            Short description of the project that 
+                            was carried out in this portfolio.
+                        </p>
+
+                        <div class="projects-skills">
+                            <img src="./assets/img/skills-figma.svg" alt="image" class="projects-skill">
+                            <img src="./assets/img/skills-react.svg" alt="image" class="projects-skill">
+                            <img src="./assets/img/skills-tailwind-css.svg" alt="image" class="projects-skill">
+                        </div>
+
+                        <a href="https://readly-book.netlify.app/" target="_blank" class="projects-button">
+                            <i class="ri-link"></i>
+                            <span>Visit Projects</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Restaurant Landing Page -->
+                <article class="projects-card">
+                    <a href="#" class="projects-image">
+                        <img src="./assets/img/projects-3.jpg" alt="" class="projects-img">
+                    </a>
+
+                    <div class="projects-data">
+                        <h3 class="projects-name">Restaurant Landing Page</h3>
+                        <p class="projects-description">
+                            Short description of the project that 
+                            was carried out in this portfolio.
+                        </p>
+
+                        <div class="projects-skills">
+                            <img src="./assets/img/skills-html.svg" alt="image" class="projects-skill">
+                            <img src="./assets/img/skills-css.svg" alt="image" class="projects-skill">
+                            <img src="./assets/img/skills-javascript.svg" alt="image" class="projects-skill">
+                        </div>
+
+                        <a href="https://the-sushi-spot.netlify.app/" target="_blank" class="projects-button">
+                            <i class="ri-link"></i>
+                            <span>Visit Projects</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Real Estate Website -->
+                <article class="projects-card">
+                    <a href="#" class="projects-image">
+                        <img src="./assets/img/projects-4.jpg" alt="image" class="projects-img">
+                    </a>
+
+                    <div class="projects-data">
+                        <h3 class="projects-name">Real Estate Website</h3>
+                        <p class="projects-description">
+                            Short description of the project that 
+                            was carried out in this portfolio.
+                        </p>
+
+                        <div class="projects-skills">
+                            <img src="./assets/img/skills-react.svg" alt="image" class="projects-skill">
+                            <img src="./assets/img/skills-sass.svg" alt="image" class="projects-skill">
+                            <img src="./assets/img/skills-tailwind-css.svg" alt="image" class="projects-skill">
+                        </div>
+
+                        <a href="https://nestleap.netlify.app/" target="_blank" class="projects-button">
+                            <i class="ri-link"></i>
+                            <span>Visit Projects</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Construction Landing Page -->
+                <article class="projects-card">
+                    <a href="#" class="projects-image">
+                        <img src="./assets/img/projects-5.jpg" alt="image" class="projects-img">
+                    </a>
+
+                    <div class="projects-data">
+                        <h3 class="projects-name">Construction Landing Page</h3>
+                        <p class="projects-description">
+                            Short description of the project that 
+                            was carried out in this portfolio.
+                        </p>
+
+                        <div class="projects-skills">
+                            <img src="./assets/img/skills-html.svg" alt="image" class="projects-skill">
+                            <img src="./assets/img/skills-css.svg" alt="image" class="projects-skill">
+                            <img src="./assets/img/skills-javascript.svg" alt="image" class="projects-skill">
+                        </div>
+
+                        <a href="https://structo.netlify.app/" target="_blank" class="projects-button">
+                            <i class="ri-link"></i>
+                            <span>Visit Projects</span>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
+            <h2 class="section-title">SERVICES I OFFER</h2>
+
+            <div class="services-container container grid">
+                <!-- Card 1 -->
+                <article class="services-card">
+                    <div class="services-icon">
+                        <div class="services-circle"></div>
+                        <i class="ri-code-s-slash-line"></i>
+                    </div>
+
+                    <h3 class="services-name">Web Development</h3>
+                    <p class="services-description">
+                        Short description of the service offered 
+                        to users to obtain a personalized project.
+                    </p>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="services-card">
+                    <div class="services-icon">
+                        <div class="services-circle"></div>
+                        <i class="ri-pen-nib-line"></i>
+                    </div>
+
+                    <h3 class="services-name">Web Design</h3>
+                    <p class="services-description">
+                        Short description of the service offered 
+                        to users to obtain a personalized project.
+                    </p>
+                </article>
+
+                <!-- Card 3 -->
+                <article class="services-card">
+                    <div class="services-icon">
+                        <div class="services-circle"></div>
+                        <i class="ri-seo-line"></i>
+                    </div>
+
+                    <h3 class="services-name">Seo (Web Pages)</h3>
+                    <p class="services-description">
+                        Short description of the service offered 
+                        to users to obtain a personalized project.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!--==================== EXPERIENCE ====================-->
+        <section class="experience section experience" id="experience">
+            <h2 class="section-title">EXPERIENCE OR WORK</h2>
+
+            <div class="experience-container container grid">
+                <article class="experience-card">
+                    <h2 class="experience-company">Adobe</h2>
+
+                    <div class="experience-data">
+                        <h3 class="experience-profession">Website Development</h3>
+                        <span class="experience-date">08/24 - Present</span>
+                        <p class="experience-description">
+                            Short description of the work 
+                            you do or did in the company.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="experience-card">
+                    <h2 class="experience-company">Google</h2>
+
+                    <div class="experience-data">
+                        <h3 class="experience-profession">Web Product Designer</h3>
+                        <span class="experience-date">02/22 - 01/23</span>
+                        <p class="experience-description">
+                            Short description of the work 
+                            you do or did in the company.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="experience-card">
+                    <h2 class="experience-company">Figma</h2>
+
+                    <div class="experience-data">
+                        <h3 class="experience-profession">Web Designer</h3>
+                        <span class="experience-date">05/23 - 11/23</span>
+                        <p class="experience-description">
+                            Short description of the work 
+                            you do or did in the company.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">CONTACT ME</h2>
+
+            <div class="contact-container container grid">
+                <form action="" class="contact-form grid" id="contact-form">
+                    <div class="contact-group grid">
+                        <input type="text" name="user-name" placeholder="Name" required class="contact-input">
+                        <input type="email" name="user-email" placeholder="Email" required class="contact-input">
+                    </div>
+
+                    <textarea name="user-message" placeholder="Message" class="contact-input contact-area"></textarea>
+
+                    <button type="submit" class="button contact-button">Send Message</button>
+
+                    <p class="contact-message" id="contact-message"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer-container container grid">
+            <div class="footer-content grid">
+                <a href="#" class="footer-logo">Elias</a>
+
+                <ul class="footer-links">
+                    <li>
+                        <a href="#home" class="footer-link">Home</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#projects" class="footer-link">Projects</a>
+                    </li>
+
+                    <li>
+                        <a href="#services" class="footer-link">Services</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <a href="ttps://www.facebook.com/" target="_blank" class="footer-social-link">
+                    <i class="ri-facebook-line"></i>
+                </a>
+
+                <a href="https://www.instagram.com/" target="_blank" class="footer-social-link">
+                    <i class="ri-instagram-line"></i>
+                </a>
+
+                <a href="https://twitter.com/" target="_blank" class="footer-social-link">
+                    <i class="ri-twitter-x-line"></i>
+                </a>
+            </div>
+        </div>
+
+        <span class="footer-copy">
+            &#169; All Rights Reserved By Madhan.
+        </span>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scroll-up" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+
+    <!--========== EMAIL JS ==========-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="./assets/js/main.js"></script>
+</body>
 </html>
