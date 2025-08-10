@@ -1,24 +1,6 @@
 ### Website Preview
 
-*I suggest replacing the image below with an actual screenshot of your site [](https://www.google.com/search?q=preview.png).*
-\!Website Preview
-
-\<div align="center"\>
-\<img src="./assets/img/favicon.png" alt="Wistant Kode Logo" width="100"/\>
-\<h1\>Showcase Website - Wistant Kode\</h1\>
-\<p\>
-A responsive and personalized landing page, transformed to serve as a showcase for my developer profile.
-\</p\>
-\<p\>
-\<a href="[https://wistantkode.netlify.app](https://wistantkode.netlify.app)"\>\<strong\>View Live Site »\</strong\>\</a\>
-\</p\>
-\<br\>
-\<img src="[https://api.netlify.com/api/v1/badges/a12b34c5-d67e-890f-1234-567890abcdef/deploy-status](https://www.google.com/search?q=https://api.netlify.com/api/v1/badges/a12b34c5-d67e-890f-1234-567890abcdef/deploy-status)" alt="Netlify Deploy Status"\>
-\<img src="[https://img.shields.io/badge/licence-MIT-yellow.svg](https://img.shields.io/badge/licence-MIT-yellow.svg)" alt="Licence: MIT"\>
-\<img src="[https://img.shields.io/badge/tech-HTML5-orange.svg](https://img.shields.io/badge/tech-HTML5-orange.svg)" alt="HTML5"\>
-\<img src="[https://img.shields.io/badge/tech-CSS3-blue.svg](https://img.shields.io/badge/tech-CSS3-blue.svg)" alt="CSS3"\>
-\<img src="[https://img.shields.io/badge/tech-JavaScript-yellow.svg](https://img.shields.io/badge/tech-JavaScript-yellow.svg)" alt="JavaScript"\>
-\</div\>
+[](/preview.png)
 
 -----
 
@@ -48,7 +30,7 @@ To clone and explore this project on your machine:
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/wistantkode/Wistant-Kode-Portfolio.git
+    git clone https://github.com/WistantKode/responsive-bento-portfolio.git
     ```
 2.  Navigate to the project directory:
     ```bash
